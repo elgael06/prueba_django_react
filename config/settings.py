@@ -15,7 +15,15 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+
+TPL_DIR = os.path.join(BASE_DIR, 'frontend/build/')
+DB_FILE = os.path.join(BASE_DIR, 'database/database.sqlite3')
+CACHE_DIR = os.path.join(BASE_DIR, 'files/cache/')
+MEDIA = os.path.join(BASE_DIR, 'files/media/')
+STATIC = os.path.join(BASE_DIR, 'frontend/build/static/')
+STATIC_FILES = os.path.join(BASE_DIR, 'files/static_files/')
+
 
 
 # Quick-start development settings - unsuitable for production
@@ -38,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     
     'rest_framework',
@@ -47,6 +56,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -61,7 +71,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, 'frontend/build')
+            TPL_DIR
             ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -84,7 +94,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME':os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME':DB_FILE,
     }
 }
 
@@ -111,9 +121,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es-mx'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Etc/GMT-6'
 
 USE_I18N = True
 
@@ -129,8 +139,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-     os.path.join(BASE_DIR, 'frontend/build/static')
-]
+STATICFILES_DIRS = (
+    STATIC ,
+)
 
 CORS_ORIGIN_ALLOW_ALL = True
+
+STATIC_ROOT = STATIC_FILES
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
