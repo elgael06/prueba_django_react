@@ -1,0 +1,15 @@
+[
+    {"name":"ReactJS","image":"1200px-React.svg.png"},
+    {"name":"NodeJS","image":"node.jpg"},
+    {"name":"Flutter","image":"flutter.jpg"},
+    {"name":"Django","image":"django-python.png"},
+    {"name":"React native","image":"1200px-React.svg.png"},
+    {"name":".net core","image":"dont-net.png"},
+    {"name":"Ionic","image":"ionic_framework.png"},
+    {"name":"NextJS","image":"nextJS.webp"},
+    {"name":"Webpack","image":"webpack.jpg"},
+    {"name":"Redux","image":"redux.jpg"},
+    {"name":"Storybook","image":"storybook.webp"},
+    {"name":"Firebase","image":"firebase.png"}
+
+]
