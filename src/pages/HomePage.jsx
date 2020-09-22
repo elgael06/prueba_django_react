@@ -6,7 +6,7 @@ import foto from  '../assets/image/perfil_1.jpg';
 import info from '../assets/info.json';
 import techs from '../assets/tech.json';
 import langs from '../assets/langs.json';
-import { Facebook, GitHub, Mail, PhoneAndroid, WhatsApp } from '@material-ui/icons';
+import { Code, Facebook, FolderSpecial, GitHub, LinkedIn, Mail, WhatsApp } from '@material-ui/icons';
 import { Divider } from '@material-ui/core';
 
 
@@ -15,7 +15,7 @@ const HomePage = () =>{
     return(<Layout>
          <div className='container'>
 
-            <h2 className='title-home'>Cristian Gael Valenzuela Castro.</h2>
+            <h2 className='title-home'><Code /> Cristian Gael Valenzuela Castro.</h2>
 
             <div className='container-personal-info'>
                 <div className='atributos'>
@@ -34,6 +34,8 @@ const HomePage = () =>{
                             <Facebook onClick={()=>window.open('https://facebook.com/elgael06')} />
                             <WhatsApp onClick={()=>alert('6674509593')} />
                             <Mail onClick={()=>alert('elgael06@gmail.com')}  />
+                            <LinkedIn onClick={()=>window.open('https://www.linkedin.com/in/cristian-gael-valenzuela-castro-50a755180/')}/>
+                            <FolderSpecial />
                         </section>
                 </div>
                 <div className='foto-perfil'>
