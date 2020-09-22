@@ -12,7 +12,7 @@ body{
 .layout{
     display: flex;
     position: absolute;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     background-color: #E1E2E1;
     top: 0;
@@ -22,9 +22,6 @@ body{
     flex-direction: column;
     padding: 5px;
     background: url('../assets/image/background.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     padding-top: 10px;
 }
@@ -34,4 +31,5 @@ body{
     padding: 0 10px;
     height:100%;
     background-color: #00796b90;
+    overflow: auto;
 }

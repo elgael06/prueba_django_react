@@ -17,7 +17,7 @@
 }
 .atributos{
     flex:  3;
-    align-self: center;
+    align-self: flex-start;
     padding-left: 20px;
     
 }
@@ -51,7 +51,9 @@
     flex-shrink: 3;
     margin: 2px 5px 12px;
     height: 80px;
-    width: 150px !important;
+    width: 75px !important;
     border: 1px solid #bdbdbd;
     flex-direction: column;
+    border-radius: 2px;
+    cursor: pointer;
 }

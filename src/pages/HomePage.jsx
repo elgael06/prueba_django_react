@@ -12,7 +12,9 @@ const HomePage = () =>{
 
     return(<Layout>
          <div className='container'>
+
             <h2 className='title-home'>Cristian Gael Valenzuela Castro.</h2>
+
             <div className='container-personal-info'>
                 <div className='atributos'>
                         {
@@ -25,16 +27,21 @@ const HomePage = () =>{
                         }
                 </div>
                 <div className='foto-perfil'>
-                    <img src={foto} />
+                    <img src={foto} alt='foto-perfil' />
                 </div>
             </div>
 
             <b className='title-home'>Tecnologias</b>
             <div className='container-personal-info container-stills'>
                 {techs.map(item=><section className='item-tech' 
-                style={{background:`url("${require('../assets/image/tecnologias/'+item.image)}") no-repeat center center`,
-                backgroundSize:'cover'}}>
-                    <label> {item.name}</label>
+                key={item.name}
+                onClick={()=>window.open(item.uri)}
+                title={item.name}
+                style={{
+                    background:`url("${require('../assets/image/tecnologias/'+item.image)}") no-repeat center center`,
+                backgroundSize:'cover',
+                backgroundColor:'#dbdbdb'
+                }}>
                 </section>)}
             </div>
 

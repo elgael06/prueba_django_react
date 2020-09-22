@@ -1,15 +1,15 @@
 [
-    {"name":"ReactJS","image":"1200px-React.svg.png"},
-    {"name":"NodeJS","image":"node.jpg"},
-    {"name":"Flutter","image":"flutter.jpg"},
-    {"name":"Django","image":"django-python.png"},
-    {"name":"React native","image":"1200px-React.svg.png"},
-    {"name":".net core","image":"dont-net.png"},
-    {"name":"Ionic","image":"ionic_framework.png"},
-    {"name":"NextJS","image":"nextJS.webp"},
-    {"name":"Webpack","image":"webpack.jpg"},
-    {"name":"Redux","image":"redux.jpg"},
-    {"name":"Storybook","image":"storybook.webp"},
-    {"name":"Firebase","image":"firebase.png"}
+    {"name":"ReactJS","image":"reactJS.png","uri":"https://es.reactjs.org/"},
+    {"name":"NodeJS","image":"node.png","uri":"https://nodejs.dev/"},
+    {"name":"Flutter","image":"flutter.jpg","uri":"https://flutter.io/"},
+    {"name":"Django","image":"django.png","uri":"https://www.djangoproject.com/"},
+    {"name":"React native","image":"react-native.jpg","uri":"https://reactnative.dev/"},
+    {"name":"dotnet core","image":"dotnet.jpg","uri":"https://dotnet.microsoft.com/"},
+    {"name":"Ionic","image":"ionic_framework.png","uri":"https://ionicframework.com/"},
+    {"name":"NextJS","image":"nextJS.webp","uri":"https://nextjs.org/"},
+    {"name":"Webpack","image":"webpack.jpg","uri":"https://webpack.js.org/"},
+    {"name":"Redux","image":"redux.jpg","uri":"https://es.redux.js.org/"},
+    {"name":"Storybook","image":"storybook.webp","uri":"https://storybook.js.org/"},
+    {"name":"Firebase","image":"firebase.png","uri":"https://firebase.google.com/"}
 
 ]
