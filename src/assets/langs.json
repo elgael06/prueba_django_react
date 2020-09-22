@@ -1,0 +1,8 @@
+[
+    {"name":"JavaScript","image":"js.png","uri":"https://es.reactjs.org/"},
+    {"name":"C#","image":"c-Sharp.png","uri":"https://es.reactjs.org/"},
+    {"name":"Python","image":"python.png","uri":"https://es.reactjs.org/"},
+    {"name":"dart","image":"dart.png","uri":"https://es.reactjs.org/"},
+    {"name":"kotlin","image":"kotlin.jpg","uri":"https://es.reactjs.org/"},
+    {"name":"Java","image":"java.png","uri":"https://es.reactjs.org/"}
+]
