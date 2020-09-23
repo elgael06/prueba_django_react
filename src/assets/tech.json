@@ -1,15 +1,15 @@
 [
-    {"name":"ReactJS","image":"reactJS.png","uri":"https://es.reactjs.org/"},
-    {"name":"NodeJS","image":"node.png","uri":"https://nodejs.dev/"},
-    {"name":"Flutter","image":"flutter.jpg","uri":"https://flutter.io/"},
-    {"name":"Django","image":"django.png","uri":"https://www.djangoproject.com/"},
-    {"name":"React native","image":"react-native.jpg","uri":"https://reactnative.dev/"},
-    {"name":"dotnet core","image":"dotnet.jpg","uri":"https://dotnet.microsoft.com/"},
-    {"name":"Ionic","image":"ionic_framework.png","uri":"https://ionicframework.com/"},
-    {"name":"NextJS","image":"nextJS.webp","uri":"https://nextjs.org/"},
-    {"name":"Webpack","image":"webpack.jpg","uri":"https://webpack.js.org/"},
-    {"name":"Redux","image":"redux.jpg","uri":"https://es.redux.js.org/"},
-    {"name":"Storybook","image":"storybook.webp","uri":"https://storybook.js.org/"},
-    {"name":"Firebase","image":"firebase.png","uri":"https://firebase.google.com/"}
-
+    {"name":"ReactJS","image":"reactJS.png","uri":"https://es.reactjs.org/","start":4.8},
+    {"name":"dotnet core","image":"dotnet.jpg","uri":"https://dotnet.microsoft.com/","start":4.6},
+    {"name":"Django","image":"django.png","uri":"https://www.djangoproject.com/","start":4.2},
+    {"name":"React native","image":"react-native.jpg","uri":"https://reactnative.dev/","start":4.2},
+    {"name":"Flutter","image":"flutter.jpg","uri":"https://flutter.io/","start":3.9},
+    {"name":"NodeJS","image":"node.png","uri":"https://nodejs.dev/","start":3.9},
+    {"name":"Ionic","image":"ionic_framework.png","uri":"https://ionicframework.com/","start":3.8},
+    {"name":"NextJS","image":"nextJS.webp","uri":"https://nextjs.org/","start":3.6},
+    {"name":"Webpack","image":"webpack.jpg","uri":"https://webpack.js.org/","start":3.5},
+    {"name":"Redux","image":"redux.jpg","uri":"https://es.redux.js.org/","start":3.9},
+    {"name":"Storybook","image":"storybook.webp","uri":"https://storybook.js.org/","start":3.3},
+    {"name":"Firebase","image":"firebase.png","uri":"https://firebase.google.com/","start":3.2},
+    {"name":"laravel","image":"laravel.png","uri":"https://laravel.com/","start":2.8}
 ]

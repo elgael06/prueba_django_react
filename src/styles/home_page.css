@@ -55,7 +55,7 @@
     border: 3px #004c40 solid;
 }
 .container-stills{
-    height: 100px;
+    height: 120px;
     overflow: auto;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -67,8 +67,8 @@
     align-self: center;
     flex-shrink: 3;
     margin: 2px 5px 12px;
-    height: 80px;
-    width: 75px !important;
+    height: 115px;
+    width: 115px !important;
     border: 1px solid #bdbdbd;
     flex-direction: column;
     border-radius: 2px;

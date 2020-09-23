@@ -1,8 +1,9 @@
 [
-    {"name":"JavaScript","image":"js.png","uri":"https://es.reactjs.org/"},
-    {"name":"C#","image":"c-Sharp.png","uri":"https://es.reactjs.org/"},
-    {"name":"Python","image":"python.png","uri":"https://es.reactjs.org/"},
-    {"name":"dart","image":"dart.png","uri":"https://es.reactjs.org/"},
-    {"name":"kotlin","image":"kotlin.jpg","uri":"https://es.reactjs.org/"},
-    {"name":"Java","image":"java.png","uri":"https://es.reactjs.org/"}
+    {"name":"JavaScript","image":"js.png","uri":"https://es.reactjs.org/","start":4.8},
+    {"name":"C#","image":"c-Sharp.png","uri":"https://es.reactjs.org/","start":4.3},
+    {"name":"Python","image":"python.png","uri":"https://es.reactjs.org/","start":4.5},
+    {"name":"dart","image":"dart.png","uri":"https://es.reactjs.org/","start":4.8},
+    {"name":"kotlin","image":"kotlin.jpg","uri":"https://es.reactjs.org/","start":2.8},
+    {"name":"Java","image":"java.png","uri":"https://es.reactjs.org/","start":2.5},
+    {"name":"php","image":"php.png","uri":"https://es.reactjs.org/","start":2.1}
 ]
